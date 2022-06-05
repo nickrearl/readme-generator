@@ -67,7 +67,11 @@ init()
         fs.writeFile('./dist/README.md', generateMarkdown(projectData) , err =>{
             if(err) throw err
 
-            console.log('README created check it out in the dist folder!');
+            console.log(`
+            ===============================================
+            README created check it out in the dist folder!
+            ===============================================
+            `);
         })
     })
     .catch(err =>{
