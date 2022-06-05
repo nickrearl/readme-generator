@@ -19,7 +19,7 @@
   ## Usage
   Clone the repository to your local system and run node index.js through your command line. Answer the prompts and enjoy your readme!
   
-  A tutorial video can be viewed here: 
+  A tutorial video can be viewed here: https://drive.google.com/file/d/1g2zK0bTa8nB8ySc9Io4p5PJfgUPV5_Kf/view?usp=sharing
 
   ## License
   This project is licensed using the MIT license. For details look here: https://opensource.org/licenses/MIT
