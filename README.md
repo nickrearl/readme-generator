@@ -14,7 +14,7 @@
 
 
   ## Installation
-  to install dependencies run npm install through the command line
+  To install dependencies run npm install through the command line.
 
   ## Usage
   Clone the repository to your local system and run node index.js through your command line. Answer the prompts and enjoy your readme!
@@ -28,7 +28,7 @@
   This is being done as an assignment for MSU's coding bootcamp, copyright for the concept and starter code is as follows: © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
   ## Tests
-  to test the file run npm test through the command line
+  To test the file run npm test through the command line.
 
   ## Questions
   Find me on [GitHub!](https://github.com/nickrearl)

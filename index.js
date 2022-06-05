@@ -34,13 +34,13 @@ const questions = [
         type: 'input',
         name: 'install',
         message: 'What command should be run to install dependencies?',
-        default: 'to install dependencies run npm install through the command line',
+        default: 'To install dependencies run npm install through the command line.',
     },
     {
         type: 'input',
         name: 'tests',
         message: 'What command should be run to run tests?',
-        default: 'to test the file run npm test through the command line',
+        default: 'To test the file run npm test through the command line.',
     },
     {
         type: 'input',
