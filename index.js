@@ -4,7 +4,6 @@ const inquirer = require('inquirer')
 
 const fs = require('fs')
 
-// TODO: Create an array of questions for user input
 const questions = [ 
     {
         type: 'input',
@@ -57,18 +56,21 @@ const questions = [
 
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
 function init() {
     return inquirer.prompt(questions)
 }
 
 
 init()
-.then(data => console.log(data))
-.catch(err =>{
-    console.log(err)
-})
+    .then(projectData => {
+        fs.writeFile('./dist/README.md', generateMarkdown(projectData) , err =>{
+            if(err) throw err
+
+            console.log('README created check it out in the dist folder!');
+        })
+    })
+    .catch(err =>{
+        console.log(err)
+    })
 
